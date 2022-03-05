@@ -6,7 +6,6 @@ body {
 
 * {
     font-family: 'Poppins', sans-serif;
-    max-height: 1000px;
 }
 
 .intro {
@@ -20,8 +19,6 @@ body {
     color:white;
     width: 65%;
     max-width: 700px;
-    height: 1000px;
-    max-height: 1200px;
     border-radius:10px;
     margin: auto;
     padding: 50px;
