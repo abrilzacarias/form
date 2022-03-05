@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="survey.css" rel="stylesheet" type="text/css">
+    <title>Survey Form</title>  
+</head>
+<body>
+    <div class="intro">
+        <h1 id="title">Practice Survey</h1>
+        <p id="description">Thank you for your time.</p>
+</div>
+
+    <div class="form">
+        <form id="survey-form">
+            <div class="form-group">
+            <label for="name" id="name-label" class="labels">Name:</label><br>
+                <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required=""><br>
+            </div>
+            <div class="form-group">
+                <label for="email" id="email-label" class="labels">Email:</label><br>
+                <input type="email" name="email" id="email" class="form-control" placeholder="Enter your Email" required=""><br>
+            </div>
+                <div class="form-group">
+                <label for="number" id="number-label" class="labels">Number:</label><br>
+                <input type="number" name="number" id="number" class="form-control" placeholder="Enter your Number" max="10" min="4" required=""><br>
+            </div>
+            <div class="dropdown-1">
+                <label for="country" class="labels">Choose a country:</label>
+                <select name="country" id="dropdown">
+                    <option value="argentina">Argentina</option>
+                  <option value="chile">Chile</option>
+                  <option value="uruguay">Uruguay</option>
+                  <option value="colombia">Colombia</option>
+                </select>
+            </div>
+                <br>
+                <div class="gender">
+            <label class="labels">Please select your gender:</label>
+                <div>
+                  <input type="radio" id="female"
+                   name="gender" value="text">
+                  <label for="female">Female</label>
+              <br>
+                  <input type="radio" id="male"
+                   name="gender" value="male">
+                  <label for="male">Male</label>
+                  <br>
+                  <input type="radio" id="notsay"
+                   name="gender" value="notsay">
+                  <label for="notsay">I'd rather not say</label>
+                </div>
+            </div>
+            <div class="food">
+            <label class="labels">Which one do you like?</label><br>
+                <label for="cbox1"><input type="checkbox" id="cbox1" value="first_checkbox"> Cats</label><br>
+                <label for="cbox2"><input type="checkbox" id="cbox2" value="second_checkbox"> Dogs</label><br>
+                <label for="cbox2"><input type="checkbox" id="cbox4" value="second_checkbox"> Birds</label>
+            </div>
+                <p class="labels">Do you have any comments?</p>
+            <textarea name="textarea" rows="10" cols="" id="textarea">Leave a comment.</textarea><br>
+            <div class="div-submit">
+            <input type="submit" value="Submit" id="submit">
+        </div>
+        </form>
+        
+    </div>
+    <footer>
+        <p>© Made by Abril, 2022. </p>
+    </footer>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"> </script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+body {
+    background-image: url("https://img.freepik.com/foto-gratis/fondo-tecnologia-abstracta-codigo-programacion_34663-30.jpg?w=740");
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    max-height: 1000px;
+}
+
+.intro {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.form {
+    background-color: rgba(11, 8, 41, 0.966);
+    color:white;
+    width: 65%;
+    max-width: 700px;
+    height: 1000px;
+    max-height: 1200px;
+    border-radius:10px;
+    margin: auto;
+    padding: 50px;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+
+.form-control {
+    inline-size: 80% ;
+    block-size: 40px;
+    font-size: 16px;
+    padding-left: 15px;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+#dropdown {
+    width: 30%;
+    height: 40px;
+    font-size: 16px;
+}
+
+.gender {
+    margin-bottom: 30px;
+}
+
+#textarea {
+    inline-size: 90%;
+    block-size: 200px;
+    font-size: 16px;
+}
+
+#submit {
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 19px;
+    border: 3px solid black;
+    cursor: pointer;
+}
+#submit:hover {
+    width: 72%;
+    font-size: 21px;
+    height: 64px;
+}
+.div-submit {
+    text-align: center;
+    padding-top: 30px;
+}
+
+footer {
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    margin-top: 25px;
+}
